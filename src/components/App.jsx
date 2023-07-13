@@ -1,13 +1,11 @@
 import React from 'react';
-import { Button } from '@mui/material';
-import '../styles/App.sass'
+import '../styles/App.sass';
+import LoginForm from "./Auth/LoginForm";
 
 function App() {
   return (
       <div>
-        <Button variant="contained" color="primary">
-          Hello, World!
-        </Button>
+        <LoginForm />
       </div>
   );
 }
