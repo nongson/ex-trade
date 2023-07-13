@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from '@mui/material';
+import '../styles/App.sass'
 
 function App() {
   return (
