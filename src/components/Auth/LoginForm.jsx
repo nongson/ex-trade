@@ -1,20 +1,38 @@
 import React from 'react';
 import { Button, Grid, TextField, Typography } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import AccountCircleIcon from '@material-ui/icons/AccountCircle';
+import LogoIcon from '../../assets/Image/logo.png';
+
 
 const useStyles = makeStyles((theme) => ({
 	formContainer: {
 		display: 'flex',
 		justifyContent: 'center',
 	},
+	LogoIcon: {
+		width: '100%',
+		maxWidth: '152px',
+		height: '100%',
+		maxHeight: '100px'
+	},
 	formSubContainer: {
+		paddingTop: '10.9vh',
 		maxWidth: '320px',
 	},
 	iconContainer: {
 		display: 'flex',
 		justifyContent: 'center',
 		marginBottom: theme.spacing(2),
+	},
+	LoginDesc: {
+		display: 'flex',
+		justifyContent: 'center',
+		paddingTop: theme.spacing(10),
+		color: '#344054',
+		fontSize: '22px',
+		fontStyle: 'normal',
+		fontWeight: 700,
+		lineHeight: 'normal'
 	},
 	textField: {
 		marginBottom: theme.spacing(2),
@@ -36,9 +54,9 @@ export default function LoginForm() {
 		<Grid container className={classes.formContainer}>
 			<Grid container className={classes.formSubContainer}>
 				<Grid item xs={12} className={classes.iconContainer}>
-					<AccountCircleIcon fontSize="large" />
+					<img src={LogoIcon} alt="Custom Icon" className={classes.LogoIcon} />
 				</Grid>
-				<Grid item xs={12} className={classes.iconContainer}>
+				<Grid item xs={12} className={classes.LoginDesc}>
 					<Typography variant="h5">Login your account</Typography>
 				</Grid>
 				<Grid item xs={12} className={classes.textField}>
