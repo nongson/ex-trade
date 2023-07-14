@@ -29,7 +29,6 @@ function App() {
           <Route path="/signup" element={<SignUpForm />} />
         </Routes>
       </div>
-    </Router>
   );
 }
 
