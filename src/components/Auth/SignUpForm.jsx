@@ -1,5 +1,3 @@
-export function SignUpForm() {
-	return (
-		<></>
-	)
+export default function SignUpForm() {
+  return <></>;
 }

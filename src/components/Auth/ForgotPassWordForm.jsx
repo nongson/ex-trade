@@ -1,5 +1,3 @@
-export function ForgotPassWordForm() {
-	return (
-		<></>
-	)
+export default function ForgotPassWordForm() {
+  return <></>;
 }
