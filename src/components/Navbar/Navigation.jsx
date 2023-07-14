@@ -10,7 +10,7 @@ const Navigation = () => {
 		<AppBar position="static">
 			<Toolbar>
 				<Typography variant="h6" style={{flexGrow: 1}}>
-					MyApp
+					Ex-trade
 				</Typography>
 				<Button color="inherit" component={RouterLink} to="/login">
 					Login

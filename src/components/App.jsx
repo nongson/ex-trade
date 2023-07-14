@@ -1,12 +1,15 @@
-import React from "react";
-import "../styles/App.sass";
-import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
+import React from 'react';
+import '../styles/App.sass';
+import {
+  BrowserRouter as Router, Route, Routes,
+} from 'react-router-dom';
 
 // Auth form
-import LoginForm from "./Auth/LoginForm";
-import ForgotPassWordForm from "./Auth/ForgotPassWordForm";
-import SignUpForm from "./Auth/SignUpForm";
-import Navigation from "./Navbar/Navigation";
+import LoginForm from './Auth/LoginForm';
+import ForgotPassWordForm from './Auth/ForgotPassWordForm';
+import SignUpForm from './Auth/SignUpForm';
+import Navigation from './Navbar/Navigation';
+
 function App() {
   return (
     <Router>
